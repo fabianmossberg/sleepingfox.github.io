@@ -1,18 +1,66 @@
 <html>
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Castoro&display=swap" rel="stylesheet">
 
 <style>
-    *{
+    h1{
         font-family: 'Castoro', serif;
+        font-weight:700;
 
     }
+    p{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+html,body{
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+}
+    .wrapper{
+        height:100%;
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    align-items: center;
+        
+    }
+
+    .footer{
+        display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 13px;
+color:#8e8e8e;
+    }
+  .logo{
+      max-width: 100px;
+  }
+  .header{
+    justify-items: center;
+    display: grid;
+
+  }
 </style>
     </head>
 <body>
 
-<h1>Sleeping Fox AB</h1>
+<div class="wrapper">
+    <div class="header">
+        <img src="sleepingfox.svg" alt="Sleeping Fox" class="logo"/>
+<h1>Sleeping Fox</h1>
+</div>
+<div class="footer">
+<p>Welcome to Sleeping Fox AB. We develop apps and services.</p>
+<p>Company Registration Number: 559176-4138</p>
+<p>Address: Vattenledningsvägen 43, 12634 Hägersten, Sweden</p>
+<p>Email: info@sleepingfox.io</p></div>
+
+
+</div>
 
     </body>
     </html>
